@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Outputs / data (don't commit large generated artifacts)
+*.csv
+Malayalam_asr_out/
+asr_out/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.opus
+
+# Model / cache
+.cache/
+*.pt
+*.bin
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
